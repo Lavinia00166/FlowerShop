@@ -1,0 +1,21 @@
+<h1 id="tableLabel">Add shop</h1>
+
+Street:
+<br />
+<input [(ngModel)]="shop.street" />
+<br />
+
+Number:
+<br />
+<input [(ngModel)]="shop.streetNumber" />
+<br />
+
+ZIP:
+<br />
+<input [(ngModel)]="shop.zip" />
+<br />
+
+<button class="btn btn-primary" (click)="saveShop()">Save Shop</button>
+<br />
+<br />
+<button class="btn btn-primary" (click)="backToList()">Back</button>
